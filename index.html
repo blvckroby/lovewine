@@ -261,10 +261,16 @@
     .logo-dm{ height:66px; }
     .mailto{ margin-left:0; width:100%; text-align:center; }
     .top-inner{ padding:.9rem 0 1rem; }
-    .top-right{ gap:.9rem; }
+    .top-inner{ flex-wrap:wrap; row-gap:.6rem; }
+    .top-right{ gap:.8rem; }
+    .mark .name{ font-size:1.06rem; letter-spacing:.1em; }
+    .mark-icon{ height:26px; }
+    .mark .tld{ display:none; }          /* il dominio e' gia' nella barra del browser */
     .top nav{ gap:1.1rem; }
-    .top nav a[href="#cataloghi"]{ display:none; }
-    .langs{ padding-left:.9rem; gap:.45rem; }
+    .top nav a[href="#cataloghi"]{ display:none; }   /* ci pensano le frecce della hero */
+    .top nav a{ font-size:.7rem; letter-spacing:.14em; }
+    .langs{ padding-left:.8rem; gap:.5rem; }
+    .langs button{ font-size:.7rem; letter-spacing:.1em; }
     .glass{ height:78%; opacity:.5; }
   }
   @media (prefers-reduced-motion:reduce){
